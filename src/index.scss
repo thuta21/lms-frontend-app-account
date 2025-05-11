@@ -119,7 +119,7 @@ $fa-font-path: "~font-awesome/fonts";
   }
 
   .dropdown-item:active,
-  .dropdown-item:focus, 
+  .dropdown-item:focus,
   .btn-tertiary:not(:disabled):not(.disabled).active {
     background-color: $light-300 !important;
   }
@@ -161,7 +161,16 @@ $fa-font-path: "~font-awesome/fonts";
   color: $app-primary-500 !important;
 }
 
+.form-control:focus {
+  border-color: $app-primary-500 !important;
+  box-shadow: 0 0 0 1px $app-primary-500 !important;
+}
+
 a {
   color: $app-primary-500 !important;
   text-decoration: none !important;
+}
+
+.btn-primary:not(:disabled,.disabled).active, .btn-primary:not(:disabled,.disabled):active, .show>.btn-primary.dropdown-toggle, body.indigo-dark-theme .modal .show>button.dropdown-toggle, body.indigo-dark-theme .modal button:not(:disabled,.disabled).active, body.indigo-dark-theme .modal button:not(:disabled,.disabled):active {
+  background-color: $app-primary-600 !important;
 }
