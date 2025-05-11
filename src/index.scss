@@ -1,6 +1,6 @@
 $fa-font-path: "~font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome";
-
+@import "variables";
 @import "~@edx/brand/paragon/fonts";
 @import "~@edx/brand/paragon/variables";
 @import "~@openedx/paragon/scss/core/core";
@@ -157,3 +157,11 @@ $fa-font-path: "~font-awesome/fonts";
   }
 }
 
+.page__account-settings .row .col-md-2 .jump-nav ul li.font-weight-bold a {
+  color: $app-primary-500 !important;
+}
+
+a {
+  color: $app-primary-500 !important;
+  text-decoration: none !important;
+}
