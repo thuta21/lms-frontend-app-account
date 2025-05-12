@@ -24,6 +24,7 @@ $fa-font-path: "~font-awesome/fonts";
 }
 .btn-link {
   background-color: #228B22 !important;
+  border: none !important;
   text-decoration: underline;
   &:hover {
     text-decoration: underline;
@@ -173,4 +174,8 @@ a {
 
 .btn-primary:not(:disabled,.disabled).active, .btn-primary:not(:disabled,.disabled):active, .show>.btn-primary.dropdown-toggle, body.indigo-dark-theme .modal .show>button.dropdown-toggle, body.indigo-dark-theme .modal button:not(:disabled,.disabled).active, body.indigo-dark-theme .modal button:not(:disabled,.disabled):active {
   background-color: $app-primary-600 !important;
+}
+
+.page__account-settings .pgn-transition-replace-group .form-group .d-flex.align-items-start button {
+  border: none;
 }
