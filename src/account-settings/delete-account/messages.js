@@ -13,12 +13,12 @@ const messages = defineMessages({
   },
   'account.settings.delete.account.text.1': {
     id: 'account.settings.delete.account.text.1',
-    defaultMessage: 'Please note: Deletion of your account and personal data is permanent and cannot be undone. {siteName} will not be able to recover your account or the data that is deleted.',
+    defaultMessage: 'Please note: Deletion of your account and personal data is permanent and cannot be undone and will not be able to recover your account or the data that is deleted.',
     description: 'A message in the user account deletion area',
   },
   'account.settings.delete.account.text.2': {
     id: 'account.settings.delete.account.text.2',
-    defaultMessage: 'Once your account is deleted, you cannot use it to take courses on {siteName}.',
+    defaultMessage: 'Once your account is deleted, you cannot use it to take courses.',
     description: 'A message in the user account deletion area',
   },
   'account.settings.delete.account.text.2.edX': {
@@ -33,7 +33,7 @@ const messages = defineMessages({
   },
   'account.settings.delete.account.text.warning': {
     id: 'account.settings.delete.account.text.warning',
-    defaultMessage: 'Warning: Account deletion is permanent. Please read the above carefully before proceeding. This is an irreversible action, and you will no longer be able to use the same email on {siteName}.',
+    defaultMessage: 'Warning: Account deletion is permanent. Please read the above carefully before proceeding. This is an irreversible action, and you will no longer be able to use the same email.',
     description: 'A message in the user account deletion area',
   },
   'account.settings.delete.account.text.change.instead': {
@@ -68,12 +68,12 @@ const messages = defineMessages({
   },
   'account.settings.delete.account.modal.text.1': {
     id: 'account.settings.delete.account.modal.text.1',
-    defaultMessage: 'You have selected "Delete My Account". Deletion of your account and personal data is permanent and cannot be undone. {siteName} will not be able to recover your account or the data that is deleted.',
+    defaultMessage: 'You have selected "Delete My Account". Deletion of your account and personal data is permanent and cannot be undone and will not be able to recover your account or the data that is deleted.',
     description: 'Messaging in the dialog asking user to confirm that they want to delete their entire account',
   },
   'account.settings.delete.account.modal.text.2': {
     id: 'account.settings.delete.account.modal.text.2',
-    defaultMessage: 'If you proceed, you will be unable to use this account to take courses on {siteName}.',
+    defaultMessage: 'If you proceed, you will be unable to use this account to take courses.',
     description: 'Messaging in the dialog asking user to confirm that they want to delete their entire account',
   },
   'account.settings.delete.account.modal.text.2.edX': {

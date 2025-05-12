@@ -58,7 +58,7 @@ const messages = defineMessages({
   },
   'account.settings.section.linked.accounts.description': {
     id: 'account.settings.section.linked.accounts.description',
-    defaultMessage: 'You can link your identity accounts to simplify signing in to {siteName}.',
+    defaultMessage: 'You can link your identity accounts to simplify signing in.',
     description: 'The linked accounts section heading description.',
   },
   'account.settings.field.username': {
@@ -68,7 +68,7 @@ const messages = defineMessages({
   },
   'account.settings.field.username.help.text': {
     id: 'account.settings.field.username.help.text',
-    defaultMessage: 'The name that identifies you on {siteName}. You cannot change your username.',
+    defaultMessage: 'The name that identifies you. You cannot change your username.',
     description: 'Help text for the account settings username field.',
   },
   'account.settings.field.full.name': {
@@ -218,7 +218,7 @@ const messages = defineMessages({
   },
   'account.settings.field.email.help.text': {
     id: 'account.settings.field.email.help.text',
-    defaultMessage: 'You receive messages from {siteName} and course teams at this address.',
+    defaultMessage: 'You receive messages and course teams at this address.',
     description: 'Help text for the account settings email field.',
   },
   'account.settings.field.secondary.email': {
@@ -491,7 +491,7 @@ const messages = defineMessages({
   },
   'account.settings.section.social.media.description': {
     id: 'account.settings.section.social.media.description',
-    defaultMessage: 'Optionally, link your personal accounts to the social media icons on your {siteName} profile.',
+    defaultMessage: 'Optionally, link your personal accounts to the social media icons on your profile.',
     description: 'Section subheader for social media links settings',
   },
   'account.settings.field.social.platform.name.linkedin': {

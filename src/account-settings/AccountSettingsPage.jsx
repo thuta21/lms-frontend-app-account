@@ -219,7 +219,7 @@ class AccountSettingsPage extends React.Component {
         <Alert variant="danger">
           <FormattedMessage
             id="account.settings.message.duplicate.tpa.provider"
-            defaultMessage="The {provider} account you selected is already linked to another {siteName} account."
+            defaultMessage="The {provider} account you selected is already linked to another account."
             description="alert message informing the user that the third-party account they attempted to link is already linked to another account"
             values={{
               provider: <b>{this.state.duplicateTpaProvider}</b>,
